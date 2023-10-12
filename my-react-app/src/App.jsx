@@ -1,6 +1,7 @@
 import PokemonCard from "./components/PokemonCard";
 import { useState } from "react";
 import NavBar from "./components/NavBar";
+import styles from  './App.css';
 
 function App() {
 
@@ -9,24 +10,29 @@ function App() {
       name: "bulbasaur",
       imgSrc:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-    },
+      type: "plante"
+      },
     {
       name: "charmander",
       imgSrc:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
-    },
+        type: "feu"
+      },
     {
       name: "squirtle",
       imgSrc:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
-    },
+        type: "eau"
+      },
     {
       name: "pikachu",
       imgSrc:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
-    },
+        type: "electrique"
+      },
     {
       name: "mew",
+      type: "psy"
     },
   ];
 
