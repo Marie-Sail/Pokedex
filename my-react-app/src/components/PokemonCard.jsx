@@ -14,7 +14,7 @@ function PokemonCard(props) {
                                 (props.pokemon.type) === "psy"? "card-psy": null  }>
     
         {props.pokemon.imgSrc ? <img src={props.pokemon.imgSrc} alt={props.pokemon.name} className="cardImg" 
-       /> : <p>censored</p>}
+       /> : <p>#censored</p>}
         
         <figcaption>{props.pokemon.name}</figcaption>
     </figure>)
